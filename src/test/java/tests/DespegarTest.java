@@ -8,14 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-
-
 public class DespegarTest {
 	private WebDriver driver;
 	By alojamientoLocator = By.xpath("//a[@href=\"//www.despegar.com.ar/hoteles/\"]");
 	By ingresoCiudadLocator = By.cssSelector("div.input-container>input[placeholder='Ingresá una ciudad, alojamiento o punto de interés'");
 	By calendarioLocator = By.xpath("//div[@class='sbox5-floating-tooltip sbox5-floating-tooltip-opened']//div[@class='sbox5-monthgrid'][@data-month='2022-02']//div[@class='sbox5-monthgrid-datenumber-number'][text()='23']");
-	By entradaLocator = By.xpath("//div[@class=\sbox5-box-dates-checkbox-container\"]//div[@class=\"sbox5-dates-input1\"]");
+	By entradaLocator = By.xpath("//div[@class=\"sbox5-box-dates-checkbox-container\"]//div[@class=\"sbox5-dates-input1\"]");
 	By salidaLocator = By.xpath("//div[@class=\"sbox5-box-dates-checkbox-container\"]//div[@class=\"sbox5-dates-input2-container\"]");
 	By calendarioSalidaLocator = By.xpath("//div[@class='sbox5-floating-tooltip sbox5-floating-tooltip-opened']//div[@class='sbox5-monthgrid'][@data-month]='2022-03']//div[@class='sbox5-monthgrid-datenumber-number'][text()='9']");
 	
