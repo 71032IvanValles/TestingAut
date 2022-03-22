@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="test">
+  <groups>
+  <run>
+	<include name="grupo1">
+  </include>
+  </run>
+  </groups>
+    <classes>
+      <class name="WikiTest1"/>
+	  <class name="DespegarTest1"/>
+	  <class name="DespegarTest2"/>
+	  <class name="DespegarTest3"/>
+	  <class name="WikiTestss"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
